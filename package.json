@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "pkg": "pkg -t node14-macos-x64 -d -b -o dist/pkg-exec ./index.js && dist/pkg-exec",
+    "pkg": "pkg -t node14-linux-x64 -d -b -o dist/pkg-exec ./index.js && dist/pkg-exec",
     "nexe": "nexe -i index.js -t linux-x64-14.16.0 --build --verbose -o dist/nexe-exec && dist/nexe-exec"
   },
   "devDependencies": {
