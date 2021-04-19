@@ -20,4 +20,3 @@ jobs:
       run: |
         npm install
         npm run nexe
-        npm run pkg
