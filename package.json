@@ -1,9 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build": "node nexe.config.js"
+    "pkg": "pkg -t node14 -d -b -o dist/pkg-exec ./index.js",
+    "nexe": "nexe -i index.js -t linux-x64-14.16.0 -o dist/nexe-exec --temp .nexe --build --verbose"
   },
   "devDependencies": {
-    "nexe": "^4.0.0-beta.18"
+    "pkg": "^4.5.1",
+    "nexe": "^4.0.0-0"
   }
 }
