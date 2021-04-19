@@ -1,6 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node nexe.config.js"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-beta.18"
   }
 }
